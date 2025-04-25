@@ -31,6 +31,10 @@ function App() {
               id={currVideo.id}
               url={currVideo.url}
               captions={currVideo.captions}
+              likes={currVideo.likes}
+              share={currVideo.Share}
+              description={currVideo.description}
+              comments={currVideo.comments}
               playing={playing}
               setPlaying={setPlaying}
             />
